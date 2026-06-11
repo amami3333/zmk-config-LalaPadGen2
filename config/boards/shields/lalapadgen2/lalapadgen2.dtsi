@@ -221,6 +221,17 @@
         led-gpios = <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_OPEN_DRAIN)>;
    };
 };
+// ============== スクロール加速度の設定 ==============
+&msc {
+    time-to-max-speed-ms = <300>;     // 加速が最大になるまでの時間（ms）
+                                      // 小さく → 素早く加速
+                                      // 大きく → ゆっくり加速（おすすめ）
+
+    acceleration-exponent = <1>;      // 加速度の強さ
+                                      // 0 = 加速なし（一定速度）
+                                      // 1 = 標準的な加速（おすすめ）
+                                      // 2 = より強い加速
+};
 
 // TrackPad on I2C
 &xiao_i2c {
