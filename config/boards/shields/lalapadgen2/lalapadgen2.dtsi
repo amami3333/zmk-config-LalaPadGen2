@@ -6,6 +6,7 @@
 #include <input/processors.dtsi>
 #include "lalapadgen2-layouts.dtsi"
 #include <dt-bindings/zmk/input_transform.h>
+#include <behaviors/mouse_keys.dtsi>   // ← これを追加！
 
 #define POS_TP_LCLK_L  52
 #define POS_TP_RCLK_L  53
