@@ -97,7 +97,7 @@
 &kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LEFT_GUI SPACE  &lt 5 TAB  &mo 1            &mo 2   &lt 6 BACKSPACE  &mt2 LEFT_GUI ENTER  &kp LANGUAGE_2    &kp LANGUAGE_1  &kp BACKSLASH
                    &none            &kp RIGHT          &kp C_VOLUME_DOWN    &kp LEFT   &kp C_VOLUME_UP  &kp UP  &kp LEFT         &kp DOWN             &kp RIGHT         &none
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                         &mkp LCLK         &mkp RCLK       &mkp MCLK
-&mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)            &kp LCTRL                           &mkp MB5         &mkp MB4             &kp LG(TAB)       &kp LG(D)       &kp LCTRL
+&mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)            &kp LCTRL                           &mkp MB5         &mkp MB4             &kp LG(TAB)       &kp LG(W)       &kp LCTRL
             >;
         };
 
@@ -149,7 +149,7 @@
 &kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LCTRL SPACE   &lt 5 TAB  &mo 1            &mo 2   &lt 6 BACKSPACE  &mt2 LCTRL ENTER  &kp LANGUAGE_2  &kp LANGUAGE_1  &kp BACKSLASH
                    &none            &kp RIGHT          &kp C_VOLUME_DOWN  &kp LEFT   &kp C_VOLUME_UP  &kp UP  &kp LEFT         &kp DOWN          &kp RIGHT       &none
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                    &mkp LCLK       &mkp RCLK       &mkp MCLK
-&mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)          &kp LCTRL                           &mkp MB5         &mkp MB4          &kp LG(TAB)     &kp LG(D)       &kp LCTRL
+&mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)          &kp LCTRL                           &mkp MB5         &mkp MB4          &kp LG(TAB)     &kp LC(W)       &kp LCTRL
             >;
         };
 
