@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <behaviors/mouse_keys.dtsi>   // ← これを追加！
 
+
 #define POS_TP_LCLK_L  52
 #define POS_TP_RCLK_L  53
 #define POS_TP_MCLK_L  54
@@ -163,7 +164,7 @@
         input-processors = <&trackpad_key_behaviors_R>,
                            <&zip_xy_scaler 1 5>,
                            <&zip_scroll_scaler 1 140>,
-                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
         lowspeedmode {
@@ -182,7 +183,7 @@
         input-processors = <&trackpad_key_behaviors_L>,
                            <&zip_xy_scaler 1 5>,
                            <&zip_scroll_scaler 1 140>,
-                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
         lowspeedmode {
