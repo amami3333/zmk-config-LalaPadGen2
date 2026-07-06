@@ -83,6 +83,17 @@
 
             label = "BT_ANDROID";
         };
+
+        text: text {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LS(X) &kp STAR>,
+                <&macro_wait_time 200>,
+                <&kp ENTER>;
+
+            label = "TEXT";
+        };
     };
 
     keymap {
