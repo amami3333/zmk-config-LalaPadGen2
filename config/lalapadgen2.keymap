@@ -88,7 +88,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LS(X) &kp STAR>,
+                <&kp LS(X) &kp STAR &kp UNDER &kp POUND &kp QMARK &kp LS(E) &kp LS(X) &kp LS(Y) &kp STAR &kp N8 &kp LS(J) &kp D &kp P>,
                 <&macro_wait_time 200>,
                 <&kp ENTER>;
 
@@ -106,7 +106,7 @@
 &mt2 LCTRL A       &lt 5 S          &mt2 LANGUAGE_2 D  &mt2 LANGUAGE_1 F    &kp G                                     &kp H            &kp J                &mt2 LG(SPACE) K  &lt 5 L     &mt2 LEFT_SHIFT MINUS
 &mt2 LEFT_SHIFT Z  &mt2 LEFT_ALT X  &kp C              &kp V                &kp B                                     &kp N            &kp M                &kp COMMA         &kp PERIOD  &mt2 LCTRL SLASH
 &kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LEFT_GUI SPACE  &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LEFT_GUI ENTER  &kp RIGHT_SHIFT   &bt_win     &bt_android
-                   &none            &kp RIGHT          &kp DOWN_ARROW       &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN             &kp RIGHT         &none
+                   &none            &kp RIGHT          &kp DOWN_ARROW       &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN             &kp RIGHT         &text
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                               &mkp LCLK         &mkp RCLK   &mkp MCLK
 &mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)            &kp LCTRL                                 &mkp MB5         &mkp MB4             &kp LG(T)         &kp LG(W)   &kp LCTRL
             >;
@@ -158,7 +158,7 @@
 &mt2 LCTRL A       &lt 5 S          &mt2 LANGUAGE_2 D  &mt2 LANGUAGE_1 F  &kp G                                     &kp H            &kp J             &kp K            &lt 5 L        &mt2 LEFT_SHIFT MINUS
 &mt2 LEFT_SHIFT Z  &mt2 LEFT_ALT X  &kp C              &kp V              &kp B                                     &kp N            &kp M             &kp COMMA        &kp PERIOD     &mt2 LCTRL SLASH
 &kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LCTRL SPACE   &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LCTRL ENTER  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &bt_mac
-                   &none            &kp RIGHT          &kp DOWN_ARROW     &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN          &kp RIGHT        &none
+                   &none            &kp RIGHT          &kp DOWN_ARROW     &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN          &kp RIGHT        &text
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                          &mkp LCLK        &mkp RCLK      &mkp MCLK
 &mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)          &kp LCTRL                                 &mkp MB5         &mkp MB4          &kp LC(T)        &kp LC(W)      &kp LCTRL
             >;
