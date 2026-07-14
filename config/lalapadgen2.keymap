@@ -90,7 +90,7 @@
             bindings =
                 <&kp LANGUAGE_2>,
                 <&macro_wait_time 200>,
-                <&kp LS(X) &kp STAR &kp UNDER &kp POUND &kp G &kp QMARK &kp LS(E) &kp LS(X) &kp LS(Y) &kp Z &kp STAR &kp N8 &kp LS(J) &kp D &kp P>,
+                <&kp G &kp Z>,
                 <&macro_wait_time 200>,
                 <&kp RET>;
 
