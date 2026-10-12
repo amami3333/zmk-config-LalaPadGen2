@@ -90,9 +90,7 @@
             bindings =
                 <&kp LANGUAGE_2>,
                 <&macro_wait_time 200>,
-                <&kp G &kp Z>,
-                <&macro_wait_time 200>,
-                <&kp RET>;
+                <&kp LS(X) &kp STAR &kp UNDER &kp POUND &kp G &kp QMARK &kp LS(E) &kp LS(X) &kp LS(Y) &kp Z &kp STAR &kp N8 &kp LS(J) &kp D &kp P &kp RET>;
 
             label = "TEXT";
         };
@@ -107,7 +105,7 @@
 &kp Q              &kp W            &kp E              &kp R                &kp T                                     &kp Y            &kp U                &kp I             &kp O       &mt2 LS(LG(D)) P
 &mt2 LCTRL A       &lt 5 S          &mt2 LANGUAGE_2 D  &mt2 LANGUAGE_1 F    &kp G                                     &kp H            &kp J                &mt2 LG(SPACE) K  &lt 5 L     &mt2 LEFT_SHIFT MINUS
 &mt2 LEFT_SHIFT Z  &mt2 LEFT_ALT X  &kp C              &kp V                &kp B                                     &kp N            &kp M                &kp COMMA         &kp PERIOD  &mt2 LCTRL SLASH
-&kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LEFT_GUI SPACE  &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LEFT_GUI ENTER  &kp RIGHT_SHIFT   &bt_win     &bt_android
+&kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LEFT_GUI SPACE  &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LEFT_GUI ENTER  &kp RIGHT_SHIFT   &kp LCMD    &kp RCTRL
                    &none            &kp RIGHT          &kp DOWN_ARROW       &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN             &kp RIGHT         &text
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                               &mkp LCLK         &mkp RCLK   &mkp MCLK
 &mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)            &kp LCTRL                                 &mkp MB5         &mkp MB4             &kp LG(T)         &kp LG(W)   &kp LCTRL
@@ -133,7 +131,7 @@
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR            &kp PERCENT                            &kp PAGE_UP    &kp HOME  &kp UP_ARROW    &kp END    &kp PRINTSCREEN
 &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp SCROLLLOCK
 &kp GRAVE        &kp SQT        &kp SEMI      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans         &mkp MB4  &trans          &mkp MB5   &kp PAUSE_BREAK
-&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans     &trans
+&trans           &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &bt_mac         &bt_win    &bt_android
                  &trans         &trans        &trans                &trans                 &trans  &trans  &trans         &trans    &trans          &trans
 &trans           &trans         &trans                                                                                              &trans          &trans     &trans
 &trans           &trans         &trans        &trans                &trans                                 &trans         &trans    &trans          &trans     &trans
@@ -159,7 +157,7 @@
 &kp Q              &kp W            &kp E              &kp R              &kp T                                     &kp Y            &kp U             &kp I            &kp O          &mt2 LS(LG(D)) P
 &mt2 LCTRL A       &lt 5 S          &mt2 LANGUAGE_2 D  &mt2 LANGUAGE_1 F  &kp G                                     &kp H            &kp J             &kp K            &lt 5 L        &mt2 LEFT_SHIFT MINUS
 &mt2 LEFT_SHIFT Z  &mt2 LEFT_ALT X  &kp C              &kp V              &kp B                                     &kp N            &kp M             &kp COMMA        &kp PERIOD     &mt2 LCTRL SLASH
-&kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LCTRL SPACE   &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LCTRL ENTER  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &bt_mac
+&kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LCTRL SPACE   &lt 5 TAB  &lt 1 ESCAPE  &lt 2 LS(ENTER)  &lt 6 BACKSPACE  &mt2 LCTRL ENTER  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RCTRL
                    &none            &kp RIGHT          &kp DOWN_ARROW     &kp LEFT   &kp UP_ARROW  &kp UP           &kp LEFT         &kp DOWN          &kp RIGHT        &text
 &mkp LCLK          &mkp RCLK        &mkp MCLK                                                                                                          &mkp LCLK        &mkp RCLK      &mkp MCLK
 &mkp MB5           &mkp MB4         &kp LG(TAB)        &kp LG(D)          &kp LCTRL                                 &mkp MB5         &mkp MB4          &kp LC(T)        &kp LC(W)      &kp LCTRL
