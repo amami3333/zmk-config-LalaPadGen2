@@ -87,7 +87,7 @@
         text: text {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_2 &kp ENTER>;
+            bindings = <&kp LANGUAGE_2 &kp LS(X) &kp STAR &kp UNDER &kp POUND &kp G &kp QMARK &kp LS(E) &kp LS(X) &kp LS(Y) &kp Z &kp STAR &kp N8 &kp LS(J) &kp D &kp P &kp ENTER>;
             label = "TEXT";
         };
     };
