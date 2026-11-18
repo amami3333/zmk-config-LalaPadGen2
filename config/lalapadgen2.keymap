@@ -163,7 +163,7 @@
 &mt2 LEFT_SHIFT Z  &mt2 LEFT_ALT X  &kp C              &kp V              &kp B                                       &kp N            &kp M             &kp COMMA        &kp PERIOD     &mt2 LCTRL SLASH
 &kp LCTRL          &kp LWIN         &kp LEFT_ALT       &mt2 LCTRL SPACE   &lt 5 TAB  &lt 7 ESCAPE  &lt (8) LS(ENTER)  &lt 6 BACKSPACE  &mt2 LCTRL ENTER  &kp RIGHT_SHIFT  &kp RIGHT_WIN  &kp RCTRL
                    &none            &kp RIGHT          &kp DOWN_ARROW     &kp LEFT   &kp UP_ARROW  &kp UP             &kp LEFT         &kp DOWN          &kp RIGHT        &text
-&td_lckl         &mkp RCLK        &mkp MCLK                                                                                                            &td_lclk       &mkp RCLK      &mkp MCLK
+&td_lclk         &mkp RCLK        &mkp MCLK                                                                                                            &td_lclk       &mkp RCLK      &mkp MCLK
 &mkp MB5           &mkp MB4         &kp LC(T)          &kp LC(W)          &kp LCTRL                                   &mkp MB5         &mkp MB4          &kp LC(T)        &kp LC(W)      &kp LCTRL
             >;
         };
